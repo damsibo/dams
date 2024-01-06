@@ -1,0 +1,76 @@
+/*
+timeline.css - https://bluewebtools.com
+Version 1.0.0
+Copyright 2024 bluewebtools.com
+*/
+:root
+{
+--main-bg:#CCCCCC;
+--Blue-bg:#1286dd;
+--Blue:#AF2655;
+--Text-color:#27374D;
+--Light-White:#FCFCFC;
+--Blue-Border:#bdeffd80;
+}
+
+body
+{
+  background-color: var(--main-bg);
+}
+.timeline
+{
+  background-color: var(--Light-White);
+  padding: 50px;
+}
+.timeline ul
+{
+  background-color: none;
+  padding: 0px;
+}
+.timeline ul li
+{
+display: block;
+list-style: circle;
+border-left: 3px solid var(--Blue-bg);
+}
+.timeline .row
+{
+  margin-left: 0px;
+  padding-bottom: 35px;
+}
+.icon>span
+{
+display:flex;
+height: 40%;
+justify-content:center;
+align-items:center;
+font-weight: bold;
+}
+
+.icon span
+{
+  background-color: var(--Blue-bg);
+  margin-left: -40px;
+  border-radius:10px 0 0 10px;
+  color: var(--Light-White);
+}
+.icon span::before 
+{
+  content:'\F1E2';
+  font-family: 'bootstrap-icons';
+  font-size: 20px;
+  color: var(--Light-White);
+  margin-right: 7px;
+}
+.title
+{
+  font-weight: bold;
+  border-bottom: 1px solid var(--Blue-Border);
+}
+.content
+{
+    border: 2px solid var(--Blue-bg);
+    border-radius: 0 10px 10px 10px;
+    background:none;
+    color: var(--Text-color);
+}
