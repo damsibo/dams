@@ -8,6 +8,9 @@ Fully responsive timeline template made using Bootstrap 5.3.2 for creating stunn
 - **Easy Customization:** Customizable elements to fit your project requirements effortlessly.
 - **Bootstrap 5 Framework:** Built using Bootstrap 5, offering a robust foundation for rapid development.
 - **Documentation:** Comprehensive documentation to guide you through installation and customization.
+  
+## Live Demo
+You can view this template live on [Timeline](https://demos.bluewebtools.com/timeline)
 
 ## Usage
 
